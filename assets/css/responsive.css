@@ -1,0 +1,82 @@
+/* INICIO RESPONSIVIDADE */
+@media only screen and (min-width:1100px) and (max-width:1366px) {
+    .menu ul { display: flex !important; flex-direction: row !important;}
+}
+@media only screen and (min-width:768px) and (max-width:1100px) {
+    /*INICIO DA RESPONSIVIDADE MENU TOPO*/
+    .menu-toggle-mobile { display: flex; justify-content: space-between;align-items: center; padding: 0px 10px;}
+    .logo-desktop {display: none !important;}
+    #menu {display:none;padding-bottom: 45px;}
+    .menu {height: auto;border: 0;}
+    .menu-int {height:auto;}
+    .menu-int ul {display: block;text-align: center;height:auto;}
+    .menu-int li {background: none;float: none;margin:0;width: 100%;height:45px;border-bottom: 1px solid #6b4a9e;display: flex;justify-content: center;align-items: center;}
+    .btn-anunciar-agora {border:0;background: #3b275a !important;border-radius:0;}
+    /*FIM DA RESPONSIVIDADE MENU TOPO*/
+    .col-md-2 {min-width:25% !important;}
+    /*INICIO DA RESPONSIVIDADE DA PÁGINA DE EMPREGOS*/
+    .row-col-mini-descri ul {width: 100%;}
+    .row-col-mini-descri li {float: none !important;border-bottom: 1px solid #8461b9;text-align: center;}
+}
+@media only screen and (min-width:640px) and (max-width:768px) {
+    /*INICIO DA RESPONSIVIDADE MENU TOPO*/
+    .menu-toggle-mobile { display: flex; justify-content: space-between;align-items: center; padding: 0px 10px;}
+    .logo-desktop {display: none !important;}
+    #menu {display:none;padding-bottom: 45px;}
+    .menu {height: auto;border: 0;}
+    .menu-int {height:auto;}
+    .menu-int ul {display: block;text-align: center;height:auto;}
+    .menu-int li {background: none;float: none;margin:0;width: 100%;height:45px;border-bottom: 1px solid #6b4a9e;display: flex;justify-content: center;align-items: center;}
+    .btn-anunciar-agora {border:0;background: #3b275a !important;border-radius:0;}
+    /*FIM DA RESPONSIVIDADE MENU TOPO*/
+    /*INICIO DA RESPONSIVIDADE DA PÁGINA DE EMPREGOS*/
+    .row-col-mini-descri ul {width: 100%;}
+    .row-col-mini-descri li {float: none !important;border-bottom: 1px solid #8461b9;text-align: center;}
+
+}
+@media only screen and (min-width:480px) and (max-width:640px) {
+    /*INICIO DA RESPONSIVIDADE MENU TOPO*/
+    .menu-toggle-mobile { display: flex; justify-content: space-between;align-items: center; padding: 0px 10px;}
+    .logo-desktop {display: none !important;}
+    #menu {display:none;padding-bottom: 45px;}
+    .menu {height: auto;border: 0;}
+    .menu-int {height:auto;}
+    .menu-int ul {display: block;text-align: center;height:auto;}
+    .menu-int li {background: none;float: none;margin:0;width: 100%;height:45px;border-bottom: 1px solid #6b4a9e;display: flex;justify-content: center;align-items: center;}
+    .btn-anunciar-agora {border:0;background: #3b275a !important;border-radius:0;}
+    /*FIM DA RESPONSIVIDADE MENU TOPO*/
+    /*INICIO DA RESPONSIVIDADE DA PÁGINA DE EMPREGOS*/
+    .row-col-mini-descri ul {width: 100%;}
+    .row-col-mini-descri li {float: none !important;border-bottom: 1px solid #8461b9;text-align: center;}
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    /*INICIO DA RESPONSIVIDADE MENU TOPO*/
+    .menu-toggle-mobile { display: flex; justify-content: space-between;align-items: center; padding: 0px 10px;}
+    .logo-desktop {display: none !important;}
+    #menu {display:none;padding-bottom: 45px;}
+    .menu {height: auto;border: 0;}
+    .menu-int {height:auto;}
+    .menu-int ul {display: block;text-align: center;height:auto;}
+    .menu-int li {background: none;float: none;margin:0;width: 100%;height:45px;border-bottom: 1px solid #6b4a9e;display: flex;justify-content: center;align-items: center;}
+    .btn-anunciar-agora {border:0;background: #3b275a !important;border-radius:0;}
+    /*FIM DA RESPONSIVIDADE MENU TOPO*/
+    /*INICIO DA RESPONSIVIDADE DA PÁGINA DE EMPREGOS*/
+    .row-col-mini-descri ul {width: 100%;}
+    .row-col-mini-descri li {float: none !important;border-bottom: 1px solid #8461b9;text-align: center;}
+}
+@media only screen and (min-width:0px) and (max-width:320px) {
+    /*INICIO DA RESPONSIVIDADE MENU TOPO*/
+    .menu-toggle-mobile { display: flex; justify-content: space-between;align-items: center; padding: 0px 10px;}
+    .logo-desktop {display: none !important;}
+    #menu {display:none;padding-bottom: 45px;}
+    .menu {height: auto;border: 0;}
+    .menu-int {height:auto;}
+    .menu-int ul {display: block;text-align: center;height:auto;}
+    .menu-int li {background: none;float: none;margin:0;width: 100%;height:45px;border-bottom: 1px solid #6b4a9e;display: flex;justify-content: center;align-items: center;}
+    .btn-anunciar-agora {border:0;background: #3b275a !important;border-radius:0;}
+    /*FIM DA RESPONSIVIDADE MENU TOPO*/
+    /*INICIO DA RESPONSIVIDADE DA PÁGINA DE EMPREGOS*/
+    .row-col-mini-descri ul {width: 100%;}
+    .row-col-mini-descri li {float: none !important;border-bottom: 1px solid #8461b9;text-align: center;}
+}
+/* FIM DA RESPONSIVIDADE */
