@@ -1,7 +1,7 @@
 <?php require 'pages/header.php'; ?>
 <div class="container">
     <section class="content-section animated flipInX">
-    <h2 class="h2-section" style="color: #563d7c;">HORÁRIOS DE ÔNIBUS<span class="h2-section-bold">AUTO VIAÇÃO CAMBUÍ</span></h2>
+    <h2 class="h2-section" style="color: #563d7c;">HORÁRIOS DE ÔNIBUS<span class="h2-section-bold"> AUTO VIAÇÃO CAMBUÍ</span></h2>
     </section>
         <article>
         <table width='100%'>

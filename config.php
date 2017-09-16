@@ -1,10 +1,11 @@
 <?php 
+
 session_start();
 
 $caminho_absoluto = dirname(__FILE__ ).DIRECTORY_SEPARATOR;
 define('ROOT_DIR' , $caminho_absoluto);
 
-$base_url = 'http://localhost/www/web.pc/';
+$base_url = 'http://localhost/web.pc/';
 define('BASE_URL', $base_url);
 
 global $pdo; 
